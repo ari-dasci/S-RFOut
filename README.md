@@ -12,7 +12,7 @@ We provide the implementation in  [Flower](https://flower.dev/).
 **Requirements**. 
 
 * The Flower framework. Follow the [official instructions](https://flower.dev/docs/installation.html) to install it.
-* Python version >= 3.x.
+* Python version >= 3.6.
 
 **Usage**. You have to follow the following steps to run the image classification experiment with the Flower implementation and to use the code in [this directory](./flower/).
 
@@ -47,7 +47,7 @@ We provide a [Jupyter notebook](./shfl/rfout.ipynb) in which we set up the entir
 **Requirements**. 
 
 * The Sherpa.ai FL framework. Clone [this GitHub repository](https://github.com/rbnuria/Sherpa.ai-Federated-Learning-Framework.git).
-* Python version >= 3.x.
+* Python version >= 3.6.
 
 **Usage**. Once you have clone the Github repository, move the [Jupyter notebook (rfout.ipynb)](./shfl/rfout.ipynb) and the implementation of the aggregation [python file (rfout.py)](./shfl/rfout.py) to the root directory and run all cells of the notebook.
 

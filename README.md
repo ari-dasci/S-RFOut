@@ -54,7 +54,18 @@ We provide a [Jupyter notebook](./shfl/rfout.ipynb) in which we set up the entir
 ## Citation
 If you use this dataset, please cite:
 
-*Citation not available yet*.
+@article{RODRIGUEZBARROSO2022108588,
+title = {Backdoor attacks-resilient aggregation based on Robust Filtering of Outliers in federated learning for image classification},
+journal = {Knowledge-Based Systems},
+pages = {108588},
+year = {2022},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2022.108588},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705122002635},
+author = {Nuria Rodríguez-Barroso and Eugenio Martínez-Cámara and M. Victoria Luzón and Francisco Herrera},
+keywords = {Federated Learning, Backdoor attacks, Resilient aggregation, Robust filtering of outliers},
+abstract = {Federated Learning is a distributed machine learning paradigm vulnerable to different kind of adversarial attacks, since its distributed nature and the inaccessibility of the data by the central server. In this work, we focus on model-poisoning backdoor attacks, because they are characterized by their stealth and effectiveness. We claim that the model updates of the clients of a federated learning setting follow a Gaussian distribution, and those ones with an outlier behavior in that distribution are likely to be adversarial clients. We propose a new federated aggregation operator called Robust Filtering of one-dimensional Outliers (RFOut-1d), which works as a resilient defensive mechanism to model-poisoning backdoor attacks. RFOut-1d is based on an univariate outlier detection method that filters out the model updates of the adversarial clients. The results on three federated image classification dataset show that RFOut-1d dissipates the impact of the backdoor attacks to almost nullifying them throughout all the learning rounds, as well as it keeps the performance of the federated learning model and it outperforms that state-of-the-art defenses against backdoor attacks.}
+}
 
 
 ## Contact
